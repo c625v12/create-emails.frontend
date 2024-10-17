@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@use "./scss/partials/mixins";
+@import "primereact/resources/themes/lara-dark-purple/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+}
+
+.p-button.p-button-icon-only.p-button-rounded {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
